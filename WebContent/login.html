@@ -1,4 +1,6 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +9,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-
     <title>Signin Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
@@ -15,17 +16,17 @@
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 
-
-
     <script src="assets/angular.min.js"></script>
     <script src="ngScript.js"></script>
     <script src="mesFonctions.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 
 </head>
 <body>
-<div ng-app="myApp"  ng-controller="myCtrl">
+<!--  <div ng-app="myApp"  ng-controller="myCtrl">
 
-<cartemel> </cartemel><br>
+<cartemel> </cartemel><br>-->
 
     <H4>
         Login <span class="badge" ng-bind="name"></span>
@@ -36,43 +37,43 @@
             </thead>
             <tbody>-->
 
-
-
-
 <div class="container">
 
     <h2>Page de connection</h2>
     <form class="form-horizontal">
         <div class="form-group">
-            <label class="control-label col-sm-2" for="lastNameInput">Utilisateur:</label>
-            <div class="col-sm-10">
+            <label class="control-label col-md-2 col-md-offset-2" for="lastNameInput">Utilisateur:</label>
+            <div class="col-md-6">
                 <input type="text" class="form-control" id="lastNameInput" name="Utilisateur" placeholder="Saisir le Nom ">
             </div>
         </div>
 
         <div class="form-group">
-            <label class="control-label col-sm-2" for="MotdePasseInput">Mot de passe:</label>
-            <div class="col-sm-10">
-                <input path="MotdePasse" type="text" class="form-control" id="MotdePasseInput" name = "Mot de passe" placeholder="Saisir votre mot de passe">
+            <label class="control-label col-md-2 col-md-offset-2" for="MotdePasseInput">Mot de passe:</label>
+            <div class="col-md-6">
+                <input path="MotdePasse" type="password" class="form-control" id="MotdePasseInput" name = "Mot de passe" placeholder="Saisir votre mot de passe">
             </div>
         </div>
 
         
         <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-                <button type="button" id="saveMel" class="btn btn-default">Inscription</button>
+            <div class="col-md-offset-4 col-md-8">
+                <button type="button" id="saveMel" class="btn btn-primary">Inscription</button>
+                <button type="button" id="saveMel" class="btn btn-success">Nouvel utilisateur</button>
+                <button type="button" id="saveMel" class="btn btn-danger">Annuler</button>
             </div>
-        </div>
-        
-        <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-                <button type="button" id="saveMel" class="btn btn-default">Nouvel utilisateur</button>
-            </div>
-        </div>
-        
-        
+     
+                        
     </form>
 </div>
+
+
+
+
+
+</body>
+</html>
+
 
 
 
@@ -98,16 +99,14 @@
                     </td>
 
 
-                </tr> --> 
+                </tr>  
 
             </tbody>
         </table>
 
-</div>
+</div>-->
 
 
-</body>
-</html>
 
 
 
